@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: api-producer
+  kafka:
+    bootstrap-servers: localhost:9092
+    admin:
+      auto-create: false
+
+
